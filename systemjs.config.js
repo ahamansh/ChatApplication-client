@@ -25,6 +25,8 @@
             '@angular/forms': 'npm:@angular/forms/bundles/forms.umd.js',
 
             // other libraries
+            //'sockjs': 'npm:sockjs/dist/sockjs',
+            'stompjs': 'npm:stompjs/lib/stomp.min.js',
             'rxjs': 'npm:rxjs'
         },
         // packages tells the System loader how to load when no filename and/or no extension
@@ -34,6 +36,9 @@
                 defaultExtension: 'js'
             },
             rxjs: {
+                defaultExtension: 'js'
+            },
+            stompjs: {
                 defaultExtension: 'js'
             }
         }
